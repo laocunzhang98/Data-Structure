@@ -1,0 +1,6 @@
+// require('./stack/index.js')
+// require('./queue/index.js')
+// require('./link_list/index.js')
+// require('./hash_table/index')
+require('./tree')
+// require('./graph')

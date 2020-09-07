@@ -1,0 +1,23 @@
+import { BinartSearchTree } from './tree'
+
+const bst = new BinartSearchTree()
+
+bst.insert(11)
+bst.insert(9)
+bst.insert(12)
+bst.insert(15)
+bst.insert(5)
+bst.insert(7)
+bst.insert(8)
+bst.insert(18)
+bst.insert(16)
+// console.log(bst)
+bst.preOrderTraverse()
+// bst.inOrderTraverse()
+// bst.postOrderTraverse()
+console.log('-------------------')
+// console.log(bst.min())
+// console.log(bst.max())
+// console.log(bst.search2(11))
+console.log(bst.remove(16))
+bst.inOrderTraverse()
